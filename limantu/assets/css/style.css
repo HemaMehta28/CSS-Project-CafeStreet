@@ -1140,6 +1140,260 @@ nav:has(#toggler:checked) .navbar-center {
   }
 }
 
+/* ***********************************Delivery Services*********************************** */
+
+.delivery-services {
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+.delivery-services .container h2 span {
+  text-decoration: underline 4px solid var(--primary);
+}
+
+.delivery-services .container h2 {
+  margin-bottom: 45px;
+  text-align: center;
+}
+
+.delivery-services .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.service-card img {
+  width: 160px;
+  margin-bottom: 17px;
+}
+
+.service-card h3 {
+  color: var(--secondary);
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.service-card p {
+  margin-bottom: 27px;
+}
+
+.service-card {
+  align-items: center;
+  width: 100%;
+}
+
+.service-card-wrapper {
+  gap: 24px;
+}
+
+@media (min-width: 576px) {
+  .service-card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .service-card {
+    width: 47%;
+  }
+
+  .delivery-services .container h2 {
+    text-align: left;
+  }
+
+  .delivery-services {
+    margin-bottom: 120px;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .service-card-wrapper {
+    justify-content: space-between;
+  }
+
+  .service-card {
+    width: 31%;
+  }
+
+  .delivery-services {
+    margin-bottom: 140px;
+    margin-top: 110px;
+  }
+}
+
+@media (min-width: 992px) {
+  .delivery-services {
+    margin-top: 130px;
+    margin-bottom: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .delivery-services {
+    margin-top: 180px;
+    margin-bottom: 160px;
+  }
+}
+
+/* ***********************************About Us*********************************** */
+
+.about-us-content h2 span {
+  text-decoration: underline 4px solid var(--primary);
+}
+
+.about-us {
+  background-color: #f6ebda;
+  margin-bottom: 40px;
+}
+
+.about-us-btn {
+  color: #f4ae26;
+}
+
+.about-us-image img {
+  width: 80%;
+  margin-bottom: 30px;
+  transform: translateY(-60px);
+  border: 4px solid white;
+  border-radius: 12px;
+}
+
+.about-us-content h2 {
+  margin-bottom: 15px;
+}
+
+.about-us-content h3 {
+  margin-bottom: 10px;
+}
+
+.about-us-content p {
+  color: #7e7d7a;
+  margin-bottom: 15px;
+}
+
+.about-us-right {
+  transform: translateY(-60px);
+}
+
+@media (min-width: 576px) {
+  .about-us {
+    background-color: transparent;
+  }
+
+  .about-us .container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .about-us-right {
+    transform: translateY(0px);
+    width: 48%;
+  }
+
+  .about-us-right .button {
+    margin-bottom: 35px;
+  }
+
+  .about-us-image img {
+    padding-inline: 0px;
+    margin-bottom: 0px;
+    transform: translateY(-40px);
+    width: 90%;
+  }
+
+  .about-us-image {
+    width: 48%;
+  }
+
+  .about-us-content h2 {
+    margin-top: 20px;
+  }
+
+  .about-us-right {
+    justify-content: center;
+  }
+
+  .about-us-bg {
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 416px;
+    top: 0%;
+  }
+}
+
+@media (min-width: 768px) {
+  .about-us-right {
+    gap: 20px;
+  }
+
+  .about-us-content {
+    gap: 5px;
+  }
+}
+
+@media (min-width: 992px) {
+  .about-us-right {
+    transform: translateY(0px);
+    width: 41%;
+  }
+
+  .about-us-image {
+    width: 33%;
+  }
+
+  .about-us .container {
+    justify-content: space-evenly;
+  }
+
+  .about-us {
+    padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-us-content {
+    gap: 10px;
+  }
+
+  .about-us-right {
+    transform: translateY(0px);
+    width: 34%;
+  }
+
+  .about-us-content h3 {
+    width: 80%;
+  }
+
+  .about-us-image {
+    width: 25%;
+  }
+
+  .about-us-right {
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+
+  .about-us .container {
+    justify-content: center;
+    gap: 150px;
+  }
+
+  .about-us-right .button {
+    margin-bottom: 34px;
+  }
+
+  .about-us {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about-us {
+    margin-bottom: 80px;
+  }
+}
 
 
 /* *************************************Footer************************************* */
