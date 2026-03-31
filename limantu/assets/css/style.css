@@ -559,8 +559,8 @@ nav:has(#toggler:checked) .navbar-center {
 }
 
 .hero-bg-bottom {
-  bottom: -19%;
-  left: 0%;
+  bottom: 133%;
+  left: -4%;
   z-index: 5;
   width: 250px;
 }
@@ -899,6 +899,15 @@ nav:has(#toggler:checked) .navbar-center {
 }
 
 /* ***********************************Popular Now*********************************** */
+.popular-section {
+  background: rgba(249, 217, 170, 1);
+  padding: 40px;
+  border-radius: 30px;
+  margin-top: 120px;  
+  position: relative;
+  z-index: 1;
+}
+
 
 .popular-now {
   background-image: linear-gradient(to bottom, var(--body-bg));
@@ -935,6 +944,7 @@ nav:has(#toggler:checked) .navbar-center {
   border-radius: 12px;
   width: 90%;
   background-color: var(--bg-white);
+  
 }
 
 .card-image img {
@@ -962,11 +972,16 @@ nav:has(#toggler:checked) .navbar-center {
 }
 
 .popular-card-wrapper {
-  gap: 15px;
   width: 90%;
   margin: auto;
-  align-items: center;
+  display: flex;
+  gap: 20px;
+  margin-top: -100px; 
+  position: relative;
+  z-index: 2;
 }
+  
+
 
 .card-bottom-right .button {
   height: 43px;
@@ -1023,12 +1038,24 @@ nav:has(#toggler:checked) .navbar-center {
 }
 
 @media (min-width: 567px) {
-  .popular-card-wrapper {
+
+  .popular-card-wrapper 
+  {
     flex-direction: row;
     column-gap: 2%;
     flex-wrap: wrap;
     width: 97%;
-  }
+  margin: auto;
+  display: flex;
+  margin-top: -100px;   
+  position: relative;
+  z-index: 2;
+}
+.popular-section {
+  padding: 40px;
+  margin-top: 120px;  
+  z-index: 1;
+}
 
   .popular-card {
     width: 49%;
@@ -1224,7 +1251,7 @@ nav:has(#toggler:checked) .navbar-center {
 }
 
 .about-us-image img {
-  width: 70%;
+  width: 80%;
   margin-bottom: 30px;
   transform: translateY(-60px);
   border: 4px solid white;
